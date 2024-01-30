@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	  <default sync-j="2"/>
+	  <remote fetch="https://git.openembedded.org/meta-openembedded" name="open-embedded"/>
+	  <remote fetch="git://git.yoctoproject.org/meta-raspberrypi" name="raspberrypi"/>
+	  <remote fetch="git://git.yoctoproject.org/meta-security.git" name="security"/>
+	  <remote fetch="git://git.yoctoproject.org/meta-virtualization" name="virtualization"/>
+	  <remote fetch="git://git.yoctoproject.org/poky" name="poky"/>
+
+	  <project name="meta-openembedded" path="sources/meta-openembedded" remote="open-embedded" revision="730e44900a0a86265bad93a16b5a5ff344a07266" upstream="kirkstone"/>
+	  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="raspberrypi" revision="8bad47eba3a56204a5b5d2a433b499398bda2173" upstream="kirkstone"/>
+	  <project name="meta-security" path="sources/meta-security" remote="security" revision="1a3e42cedbd94ca73be45800d0e902fec35d0f0f" upstream="kirkstone"/>
+	  <project name="meta-virtualization" path="sources/meta-virtualization" remote="virtualization" revision="88327090d26955a678c6f8bd2585aad4d802f6c4" upstream="kirkstone"/>
+	  <project name="poky" path="sources/poky" remote="poky" revision="426dfdc8d246cae5f4fd37415ece280f169bee08" upstream="kirkstone"/>
+
+</manifest> 
