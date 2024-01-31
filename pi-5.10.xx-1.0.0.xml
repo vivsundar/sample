@@ -2,7 +2,7 @@
 <manifest>
 
 	  <default sync-j="2"/>
-	  <remote fetch="https://git.openembedded.org/meta-openembedded" name="open-embedded"/>
+	  <remote fetch="https://git.openembedded.org/" name="open-embedded"/>
 	  <remote fetch="git://git.yoctoproject.org/meta-raspberrypi" name="raspberrypi"/>
 	  <remote fetch="git://git.yoctoproject.org/meta-security.git" name="security"/>
 	  <remote fetch="git://git.yoctoproject.org/meta-virtualization" name="virtualization"/>
