@@ -3,10 +3,10 @@
 
 	  <default sync-j="2"/>
 	  <remote fetch="https://git.openembedded.org/" name="open-embedded"/>
-	  <remote fetch="git://git.yoctoproject.org/meta-raspberrypi" name="raspberrypi"/>
-	  <remote fetch="git://git.yoctoproject.org/meta-security.git" name="security"/>
-	  <remote fetch="git://git.yoctoproject.org/meta-virtualization" name="virtualization"/>
-	  <remote fetch="git://git.yoctoproject.org/poky" name="poky"/>
+	  <remote fetch="git://git.yoctoproject.org/" name="raspberrypi"/>
+	  <remote fetch="git://git.yoctoproject.org/" name="security"/>
+	  <remote fetch="git://git.yoctoproject.org/" name="virtualization"/>
+	  <remote fetch="git://git.yoctoproject.org/" name="poky"/>
 
 	  <project name="meta-openembedded" path="sources/meta-openembedded" remote="open-embedded" revision="730e44900a0a86265bad93a16b5a5ff344a07266" upstream="kirkstone"/>
 	  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="raspberrypi" revision="8bad47eba3a56204a5b5d2a433b499398bda2173" upstream="kirkstone"/>
